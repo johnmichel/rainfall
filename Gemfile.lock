@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rainfall (0.1.0)
+    rainfall (0.1.4)
       cloudapp_api (~> 0.4.0)
       httparty (~> 0.12.0)
       stamp
@@ -11,16 +11,17 @@ GEM
   specs:
     cloudapp_api (0.4.0)
       httparty
-      httparty
       mime-types
     httparty (0.12.0)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
-    json (1.8.1)
-    mime-types (2.0)
-    multi_xml (0.5.5)
-    rake (10.1.0)
-    stamp (0.5.0)
+    json (1.8.6)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.0512)
+    multi_xml (0.6.0)
+    rake (12.3.3)
+    stamp (0.6.0)
 
 PLATFORMS
   ruby
